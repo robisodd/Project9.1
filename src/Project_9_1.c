@@ -19,7 +19,7 @@
 #define REPEAT_RATE 100                                   // Rate to repeat button press (in milliseconds)
 
 // Needed for Pebble graphics
-Window *window;                 // Our program's window
+static Window *window;          // Our program's window
 static TextLayer *string_layer; // The layer that displays the string
 static TextLayer *cursor_layer; // The layer that displays the cursor
 static GFont font;              // Our custom monospaced font
